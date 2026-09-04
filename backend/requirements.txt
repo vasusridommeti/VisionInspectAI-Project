@@ -4,3 +4,8 @@ sqlalchemy
 psycopg2-binary
 python-dotenv
 Pillow
+torch
+torchvision
+scikit-learn
+opencv-python-headless
+numpy
