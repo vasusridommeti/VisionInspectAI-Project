@@ -4,7 +4,7 @@ function QualityReports() {
   const [reports, setReports] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/inspections")
+    fetch("http://https://visioninspectai-backend.onrender.com/inspections")
       .then((response) => response.json())
       .then((data) => {
         if (data.success) {
