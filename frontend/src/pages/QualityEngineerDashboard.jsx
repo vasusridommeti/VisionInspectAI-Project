@@ -25,8 +25,8 @@ function QualityEngineerDashboard() {
 const loadAnalytics = async () => {
   try {
     const response = await fetch(
-      "http://127.0.0.1:8000/defect-analytics"
-    )
+  "https://visioninspectai-backend.onrender.com/defect-analytics"
+)
     const data = await response.json();
 
     if (data.success) {
