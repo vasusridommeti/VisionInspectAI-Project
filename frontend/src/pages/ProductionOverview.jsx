@@ -5,7 +5,7 @@ function ProductionOverview() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const API_URL = "http://https://visioninspectai-backend.onrender.com";
+  const API_URL = "https://visioninspectai-backend.onrender.com";
 
   useEffect(() => {
     fetch(`${API_URL}/factory-supervisor-analytics`)

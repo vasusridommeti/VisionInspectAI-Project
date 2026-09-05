@@ -17,7 +17,7 @@ function InspectionResult() {
       try {
 
         const response = await fetch(
-          "http://https://visioninspectai-backend.onrender.com/inspections"
+          "https://visioninspectai-backend.onrender.com/inspections"
         );
 
         if (!response.ok) {

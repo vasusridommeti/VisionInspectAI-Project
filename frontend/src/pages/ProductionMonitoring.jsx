@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function ProductionMonitoring() {
-const API_URL = "http://https://visioninspectai-backend.onrender.com";
+const API_URL = "https://visioninspectai-backend.onrender.com";
 
 const [data, setData] = useState(null);
 const [loading, setLoading] = useState(true);

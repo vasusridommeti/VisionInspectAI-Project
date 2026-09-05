@@ -20,7 +20,7 @@ const loadAnalytics = async () => {
     try {
 
       const response = await fetch(
-        "http://https://visioninspectai-backend.onrender.com/factory-supervisor-analytics"
+        "https://visioninspectai-backend.onrender.com/factory-supervisor-analytics"
       );
 
       const data = await response.json();

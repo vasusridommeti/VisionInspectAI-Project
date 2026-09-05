@@ -36,7 +36,7 @@ try {
   formData.append("file", selectedFile);
 
   const response = await fetch(
-    "http://https://visioninspectai-backend.onrender.com/inspect",
+    "https://visioninspectai-backend.onrender.com/inspect",
     {
       method: "POST",
       body: formData,

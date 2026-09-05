@@ -4,7 +4,7 @@ function QualityReports() {
   const [reports, setReports] = useState([]);
 
   useEffect(() => {
-    fetch("http://https://visioninspectai-backend.onrender.com/inspections")
+    fetch("https://visioninspectai-backend.onrender.com/inspections")
       .then((response) => response.json())
       .then((data) => {
         if (data.success) {

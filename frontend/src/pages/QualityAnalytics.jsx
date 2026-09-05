@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function QualityAnalytics() {
 
-const API_URL = "http://https://visioninspectai-backend.onrender.com";
+const API_URL = "https://visioninspectai-backend.onrender.com";
 
 const [analytics, setAnalytics] = useState(null);
 const [loading, setLoading] = useState(true);

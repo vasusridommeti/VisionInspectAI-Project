@@ -5,7 +5,7 @@ function InspectionHistory() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://https://visioninspectai-backend.onrender.com/inspections")
+    fetch("https://visioninspectai-backend.onrender.com/inspections")
       .then((response) => response.json())
       .then((data) => {
         console.log("Inspection History:", data);
