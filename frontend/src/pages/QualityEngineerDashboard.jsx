@@ -8,10 +8,9 @@ function QualityEngineerDashboard() {
 
   const loadInspections = async () => {
     try {
-      const response = await fetch(
-        "http://127.0.0.1:8000/inspections"
-      );
-
+     const response = await fetch(
+  "https://visioninspectai-backend.onrender.com/inspections"
+);
       const data = await response.json();
 
       if (data.success) {
